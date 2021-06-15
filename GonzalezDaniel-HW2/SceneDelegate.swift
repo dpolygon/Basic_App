@@ -1,6 +1,8 @@
 //
 //  SceneDelegate.swift
-//  GonzalezDaniel-HW2
+//  Project: GonzalezDaniel-HW2
+//  EID: Dg37584
+//  Course: CS371L
 //
 //  Created by Daniel Gonzalez on 6/14/21.
 //
