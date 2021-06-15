@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Ut-ebr" userLabel="userLoginLabel">
-                                <rect key="frame" x="166" y="81" width="82" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-Ut-ebr" userLabel="userLoginLabel">
+                                <rect key="frame" x="131" y="81" width="151" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,14 +44,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="userID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jx7-1M-MZW" userLabel="userIDLabel">
-                                <rect key="frame" x="56" y="194.66666666666666" width="54" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="userID:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="jx7-1M-MZW" userLabel="userIDLabel">
+                                <rect key="frame" x="20" y="194.66666666666666" width="90" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdJ-HY-MEc" userLabel="passwordLabel">
-                                <rect key="frame" x="32" y="236.66666666666666" width="78" height="20.999999999999972"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LdJ-HY-MEc" userLabel="passwordLabel">
+                                <rect key="frame" x="20" y="236.66666666666666" width="90" height="20.999999999999972"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -60,24 +60,26 @@
                                 <rect key="frame" x="187.66666666666666" y="382.66666666666669" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <action selector="pushLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJV-vz-g2w"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8lz-c4-eXV"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Wdq-Ut-ebr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="4Mb-7x-iRR"/>
+                            <constraint firstItem="Wdq-Ut-ebr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="4Mb-7x-iRR"/>
                             <constraint firstItem="gJs-Od-VbT" firstAttribute="leading" secondItem="jx7-1M-MZW" secondAttribute="trailing" constant="16" id="A6q-De-STe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gJs-Od-VbT" secondAttribute="trailing" constant="38" id="B2B-jC-h08"/>
                             <constraint firstItem="jx7-1M-MZW" firstAttribute="centerY" secondItem="gJs-Od-VbT" secondAttribute="centerY" id="CXy-ZC-Wg5"/>
                             <constraint firstItem="fEF-YO-A2P" firstAttribute="leading" secondItem="LdJ-HY-MEc" secondAttribute="trailing" constant="16" id="H8x-rt-ubk"/>
-                            <constraint firstItem="jx7-1M-MZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="Hnk-k7-7QQ"/>
+                            <constraint firstItem="jx7-1M-MZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hnk-k7-7QQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fEF-YO-A2P" secondAttribute="trailing" constant="38" id="HrH-F9-ecn"/>
                             <constraint firstItem="fEF-YO-A2P" firstAttribute="top" secondItem="gJs-Od-VbT" secondAttribute="bottom" constant="8" symbolic="YES" id="KAy-bo-OhP"/>
-                            <constraint firstItem="LdJ-HY-MEc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Lhc-TT-l8d"/>
+                            <constraint firstItem="LdJ-HY-MEc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lhc-TT-l8d"/>
                             <constraint firstItem="gJs-Od-VbT" firstAttribute="top" secondItem="Wdq-Ut-ebr" secondAttribute="bottom" constant="86" id="ZmJ-Vk-xA5"/>
                             <constraint firstItem="LdJ-HY-MEc" firstAttribute="centerY" secondItem="fEF-YO-A2P" secondAttribute="centerY" id="aHz-xj-WIL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ijl-12-4DC" secondAttribute="trailing" constant="120.33333333333331" id="kUV-4q-386"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wdq-Ut-ebr" secondAttribute="trailing" constant="166" id="nDa-Wh-i7t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wdq-Ut-ebr" secondAttribute="trailing" constant="132" id="nDa-Wh-i7t"/>
                             <constraint firstItem="Ijl-12-4DC" firstAttribute="top" secondItem="aNg-hC-Wsx" secondAttribute="bottom" constant="8" symbolic="YES" id="ofP-XK-rhP"/>
                             <constraint firstItem="aNg-hC-Wsx" firstAttribute="centerX" secondItem="Ijl-12-4DC" secondAttribute="centerX" id="ssf-OU-oAT"/>
                             <constraint firstItem="Wdq-Ut-ebr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="tsd-0e-wVK"/>
