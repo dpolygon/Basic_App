@@ -39,7 +39,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not currently logged in" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijl-12-4DC" userLabel="loginStatus">
-                                <rect key="frame" x="119.33333333333333" y="420.66666666666669" width="174.33333333333337" height="20.333333333333314"/>
+                                <rect key="frame" x="82" y="420.66666666666669" width="250" height="20.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="6Id-mV-LcO"/>
                                 </constraints>
@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNg-hC-Wsx" userLabel="loginButton">
-                                <rect key="frame" x="187.66666666666666" y="382.66666666666669" width="38" height="30"/>
+                                <rect key="frame" x="188" y="382.66666666666669" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8lz-c4-eXV"/>
@@ -81,13 +81,12 @@
                             <constraint firstItem="LdJ-HY-MEc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lhc-TT-l8d"/>
                             <constraint firstItem="gJs-Od-VbT" firstAttribute="top" secondItem="Wdq-Ut-ebr" secondAttribute="bottom" constant="86" id="ZmJ-Vk-xA5"/>
                             <constraint firstItem="LdJ-HY-MEc" firstAttribute="centerY" secondItem="fEF-YO-A2P" secondAttribute="centerY" id="aHz-xj-WIL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ijl-12-4DC" secondAttribute="trailing" constant="120.33333333333331" id="kUV-4q-386"/>
+                            <constraint firstItem="Ijl-12-4DC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lep-Xp-Uzb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wdq-Ut-ebr" secondAttribute="trailing" constant="132" id="nDa-Wh-i7t"/>
                             <constraint firstItem="Ijl-12-4DC" firstAttribute="top" secondItem="aNg-hC-Wsx" secondAttribute="bottom" constant="8" symbolic="YES" id="ofP-XK-rhP"/>
                             <constraint firstItem="aNg-hC-Wsx" firstAttribute="centerX" secondItem="Ijl-12-4DC" secondAttribute="centerX" id="ssf-OU-oAT"/>
                             <constraint firstItem="Wdq-Ut-ebr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="tsd-0e-wVK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ijl-12-4DC" secondAttribute="bottom" constant="295" id="wp2-7F-rxg"/>
-                            <constraint firstItem="Ijl-12-4DC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119.33333333333333" id="z0r-H7-bBm"/>
                         </constraints>
                     </view>
                     <connections>
